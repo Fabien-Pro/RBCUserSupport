@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RBCUSS-Request</title>
+    <link rel="icon" type="image" href="../static/img/RBC-LOGO.png"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <style>
+      form {
+    border: 3px solid #f1f1f1;
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+    margin-top: 0.5%;
+    border-radius: 1%;
+    background-color: aliceblue;
+    bottom: 2px;
+    /* margin-bottom: 2%; */
+}
+    </style>
+  </head>
+
+  <body bgcolor="skyblue">
+    <div class="header">
+      <img src="../static/img/RBC-LOGO.png">
+      <p> <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="requestdashboard.html">Dashoard</a>
+        <a href="requestform.html">Request</a>
+        <a href="chatpage.html">Chat</a></p>
+      </div>
+       <div class="form">
+        <form action="">
+            <h2>Tell us what we can help you</h2>  
+            <input type="text" id="ename" name="employeename" placeholder="Employee Name" required ><br>
+            <input type="date" name="dob" id="dob" placeholder="Date Of Birth" required><br>
+            <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" required><br>
+            <input type="text" id="place" name="place" placeholder="Place (Office)" required><br>
+            <input type="text" id="problem" name="Problem" placeholder="Problem" required ><br>
+            <select name="Mode of Support" id="mode">
+              <option value="Mode">Select mode of Support you want</option>
+              <option value="Online">Online</option>
+              <option value="Physical">Physical</option>
+            </select><br>
+             <label>Time Within</label>
+            <input type="time" name="time" id="time" placeholder="Time Within" required><br>
+            <input type="submit" value="Send" required>
+        </form>
+        <label for="">Already have an account? <strong><a href="login.html">SignIn</a></strong></label>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy Fabien NIYIGABA 2023.All Right Reserved </
+    </div>
+  </body>
+</html>

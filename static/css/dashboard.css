@@ -1,0 +1,101 @@
+.left {
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 0%;
+    float: left;
+    width: 20%;
+    /* The width is 20%, by default */
+}
+
+.main {
+    background-color: #f1f1f1;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    /* The width is 60%, by default */
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.right {
+    background-color: #04AA6D;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    /* The width is 20%, by default */
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.right1 {
+    background-color: #f1ef43;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    /* The width is 20%, by default */
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.right2 {
+    background-color: #6b7bda;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    /* The width is 20%, by default */
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.right3 {
+    background-color: aliceblue;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    /* The width is 20%, by default */
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.main,
+.left,
+.right,
+.right1,
+.right2,
+.right3 {
+    border-radius: 2%;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+}
+
+@media screen and (max-width: 800px) {
+    .menu,
+    .left,
+    .main,
+    .right,
+    .right1,
+    .right2,
+    .right3 {
+        width: 100%;
+    }
+    .left,
+    .main,
+    .right,
+    .right1,
+    .right2,
+    .right3 {
+        display: block;
+        margin-left: 0%;
+    }
+    .main,
+    .right,
+    .right1,
+    .right2,
+    .right3 {
+        margin-top: 8%;
+    }
+}
+
+li {
+    list-style: none;
+}
